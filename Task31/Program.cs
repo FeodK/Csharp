@@ -4,6 +4,8 @@
 Например, в массиве [3,9,-8,1,0,-7,2,-1,8,-3,-1,6]
  сумма положительных чисел равна 29, сумма отрицательных равна -20.*/
 
+Console.Clear();
+
 int[] GetRandomArray()
 {
     int[] array = new int[12];
@@ -60,4 +62,5 @@ int NegativeNums(int[] array)
 }
 
 PrintArray(uArray);
-System.Console.WriteLine($"сумма положительных чисел равна {PositveNums(uArray)}, сумма отрицательных равна {NegativeNums(uArray)}");
+System.Console.WriteLine();
+System.Console.WriteLine($"Сумма положительных чисел равна {PositveNums(uArray)}, сумма отрицательных равна {NegativeNums(uArray)}");
