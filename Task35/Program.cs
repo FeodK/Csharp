@@ -38,7 +38,7 @@ void PrintArray(int[] arrayToPrint)
     System.Console.Write(arrayToPrint[i]);
     if (i<arrayToPrint.Length - 1)
        {
-        Console.Write (arrayToPrint[i] + ", ");
+        Console.Write ( ", ");
        }
    }
    System.Console.Write("]");
