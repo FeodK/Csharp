@@ -58,11 +58,13 @@ int[] ReverseArray(int[] array)
     return array;
 }
 
+Console.ForegroundColor=ConsoleColor.White;
 Console.ForegroundColor=ConsoleColor.Green;
 PrintArray(uArray);
 int[] turnArray = ReverseArray(uArray);
 Console.ForegroundColor=ConsoleColor.Blue;
 System.Console.WriteLine();
 PrintArray(turnArray);
+Console.ForegroundColor=ConsoleColor.White;
 
 
