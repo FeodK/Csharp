@@ -26,7 +26,7 @@ void FindPoint(double b1, double b2, double k1, double k2)
     }
     else if(k1==k2)
     {
-        System.Console.WriteLine("Прямые параллелтный");
+        System.Console.WriteLine("Прямые параллельны");
     }
     else
     {
