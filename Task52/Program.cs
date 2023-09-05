@@ -45,10 +45,10 @@ void Print2DArray(int[,] arrayToPrint)
 double FindAritnmeticMean(int[,] array)
 {
     double sum = 0;
-    int n = array.GetLength(1)-1;
-    for(int i=0; i<array.GetLength(0); i++)
+    int n = array.GetLength(0)-1;
+    for(int j=0; j<array.GetLength(1); j++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int i = 0; i < array.GetLength(0); i++)
         {
             sum += array[i,j];  
         } 
